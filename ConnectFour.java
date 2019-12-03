@@ -2,7 +2,8 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class ConnectFour {
-
+// im adding a comment here ok
+Static String greeting = "hello world";
     public static void printBoard (char[][]array) {
         //this method takes the board array as an input, and prints out the array at each index without the brackets or commas
         for (int i= 0; i < array.length; i++){
@@ -68,7 +69,7 @@ with the player's designated character. It then returns the row that the charact
 
 
     public static boolean checkIfWinner(char[][] array, int col, int row, char chipType) {
-        boolean horizontalWin = false;
+        boolean horizontalWinner = false;
         boolean verticalWin = false;
         int counter1 = 0;
         int counter2 = 0;
@@ -122,7 +123,7 @@ starts vertically at the height which the chip was placed
 
 
     public static void main(String[] args) {
-        char charInput;
+        char characterInput;
         String whichPlayer;
         int columnInput;
         int iterations = 1;
